@@ -1,39 +1,39 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 :root {
-    --modal-w: 600px;
-    --modal-h: 300px;
+  --modal-w: 600px;
+  --modal-h: 300px;
 }
 
 .modal {
   position: fixed;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%); 
+  transform: translate(-50%, -50%);
   width: var(--modal-w);
   height: var(--modal-h);
-  background-color: yellowgreen; 
+  background-color: yellowgreen;
 }
 
 .container {
-    position: relative;
+  position: relative;
 }
 
 .close-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-    background-color: red;
-    border-radius: 50%;
-    position: absolute;
-    right: 0;
-    top: 0;
-    transform: translate(50%, -50%);
-    color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translate(50%, -50%);
+  color: white;
 }
